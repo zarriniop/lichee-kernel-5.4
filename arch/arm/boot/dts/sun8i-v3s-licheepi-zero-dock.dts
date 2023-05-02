@@ -76,9 +76,7 @@
 //	vmmc-supply = <&reg_vcc3v3>;
 //	status = "okay";
 //};
-&ehci0 {
-	status = "okay";
-};
+
 
 &lradc {
 	vref-supply = <&reg_vcc3v0>;
